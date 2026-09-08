@@ -4,12 +4,10 @@ class Solution {
         if (n < 1000){
             return 0;
         }
-            for(int i = 1 ; i < 4; i++){
-               int val = (int)Math.pow(10 , i);
-               int res = n/val;
+               int res = n/1000;
                if(res >= 1 && res <= 100){
-                count = n - val + 1 ;
-               }
+                count = n - 1000 + 1 ;
+               
             }
         
         
