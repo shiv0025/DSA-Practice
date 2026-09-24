@@ -6,8 +6,9 @@ class Solution {
             ans = 0 ;
             while (n > 0){
                 int rem = n % 10 ;
-                n = n / 10;
+                
                 ans += rem;
+                n = n / 10;
             }
             if (ans == i){
                 return i;
